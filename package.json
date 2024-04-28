@@ -1,5 +1,6 @@
 {
-  "name": "nft-preview-component",
+  "name": "nft-preview-component",  
+  "homepage": "https://matrixx333.github.io/nft-preview-component/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
