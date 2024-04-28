@@ -1,0 +1,38 @@
+.card {
+    width: 350px;
+    height: 596px;
+    background-color: var(--VERY_DARK_BLUE_CARD_BG);
+    border-radius: 15px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+    padding: 24px;
+    row-gap: 21px;
+}
+
+img {
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+}
+
+#title {
+    color: var(--WHITE);
+    height: 28px;
+}
+
+#description {
+    height: 52px;
+    color: var(--SOFT_BLUE);
+}
+
+hr {    
+    width: 302px;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid var(--VERY_DARK_BLUE_LINE);    
+}
