@@ -14,25 +14,70 @@
     row-gap: 21px;
 }
 
-img {
+.img-container, .img-overlay {
+    border-radius: 8px;
+}
+
+.img-container {
     width: 302px;
     height: 302px;
-    border-radius: 8px;
+    position: relative;
+    background-image: url('../../assets/image-equilibrium.jpg');
+    background-size: contain;
+}
+
+.img-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+}
+
+.img-overlay:hover {
+    background-color: rgba(0, 255, 248, 0.503); 
+}
+
+.img-overlay:hover .eye-icon {
+    visibility: visible;
+}
+
+.eye-icon {
+    visibility: hidden;
 }
 
 #title {
     color: var(--WHITE);
-    height: 28px;
+}
+
+#title:hover {
+    color: var(--CYAN);
+    cursor: pointer;
 }
 
 #description {
-    height: 52px;
     color: var(--SOFT_BLUE);
 }
 
-hr {    
+hr {
     width: 302px;
     height: 1px;
     border: 0;
-    border-top: 1px solid var(--VERY_DARK_BLUE_LINE);    
+    border-top: 1px solid var(--VERY_DARK_BLUE_LINE);
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 327px;
+        height: 543px;
+    }
+
+    .card-content {
+        row-gap: 17px;
+    }
+
+    .img-container {
+        width: 278px;
+        height: 278px;
+    }
 }
