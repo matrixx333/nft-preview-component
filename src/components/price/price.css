@@ -1,0 +1,42 @@
+
+
+.price-container,
+.price-group,
+.time-left-group {
+    display: flex;
+}
+
+.price-container {
+    justify-content: space-between;
+    height: 20px;
+}
+
+.price-group,
+.time-left-group {
+    align-items: center;
+    column-gap: 6px;
+}
+
+#price {
+    color: var(--CYAN);
+}
+
+#time-left {
+    color: var(--SOFT_BLUE);
+}
+
+.caption-bold {
+    font-size: 16px;
+    font-weight: var(--BOLD);
+}
+
+#eth-icon {
+    width: 11px;
+    height: 18px;
+}
+
+#clock-icon {
+    width: 16px;
+    height: 16px;
+}
+

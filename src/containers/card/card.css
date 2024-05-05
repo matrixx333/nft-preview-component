@@ -1,0 +1,83 @@
+.card {
+    width: 350px;
+    height: 596px;
+    background-color: var(--VERY_DARK_BLUE_CARD_BG);
+    border-radius: 15px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+    padding: 24px;
+    row-gap: 21px;
+}
+
+.img-container, .img-overlay {
+    border-radius: 8px;
+}
+
+.img-container {
+    width: 302px;
+    height: 302px;
+    position: relative;
+    background-image: url('../../assets/image-equilibrium.jpg');
+    background-size: contain;
+}
+
+.img-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+}
+
+.img-overlay:hover {
+    background-color: rgba(0, 255, 248, 0.503); 
+}
+
+.img-overlay:hover .eye-icon {
+    visibility: visible;
+}
+
+.eye-icon {
+    visibility: hidden;
+}
+
+#title {
+    color: var(--WHITE);
+}
+
+#title:hover {
+    color: var(--CYAN);
+    cursor: pointer;
+}
+
+#description {
+    color: var(--SOFT_BLUE);
+}
+
+hr {
+    width: 302px;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid var(--VERY_DARK_BLUE_LINE);
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 327px;
+        height: 543px;
+    }
+
+    .card-content {
+        row-gap: 17px;
+    }
+
+    .img-container {
+        width: 278px;
+        height: 278px;
+    }
+}

@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  display: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --SOFT_BLUE: rgb(139, 172, 217);
+  --WHITE: rgb(255, 255, 255);
+  --CYAN: rgb(0, 255, 248);
+  --VERY_DARK_BLUE_MAIN_BG: rgb(13, 25, 44);
+  --VERY_DARK_BLUE_CARD_BG: rgb(21, 38, 63);
+  --VERY_DARK_BLUE_LINE: rgb(46, 64, 90);
+  --REGULAR: 300;
+  --SEMI-BOLD: 400;
+  --BOLD: 600;
 }
