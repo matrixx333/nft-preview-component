@@ -8,7 +8,6 @@ function Card() {
     <div className="card">
       <div className="card-content">
         <div className="img-container">
-          {/* <img className="equilibrium" src={equilibriumImage} alt="Equilibrium" /> */}
           <div className="img-overlay"><img className="eye-icon" src={eyeIcon} alt="Eye"></img></div>
         </div>
         <div id="title" className="heading">Equilibrium #3429</div>
